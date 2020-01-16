@@ -1,6 +1,6 @@
-* {
-  outline: 1px solid cyan;
-}
+// * {
+//   outline: 1px solid cyan;
+// }
 
 html,
 body {
@@ -71,6 +71,7 @@ header#top {
 }
 
 footer {
+  margin: 3rem 0 0;
   p {
     margin: 0.3rem 0;
     &.phone-number {
@@ -78,6 +79,7 @@ footer {
     }
   }
   small {
+    margin: 1rem 0;
     display: block;
     color: #777;
     font-size: 0.8rem;
