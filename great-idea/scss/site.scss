@@ -56,3 +56,18 @@ header#top {
     text-decoration: none;
   }
 }
+
+footer {
+  p {
+    margin: 0.3rem 0;
+    &.phone-number {
+      margin: 0.5rem 0;
+    }
+  }
+  small {
+    display: block;
+    color: #777;
+    font-size: 0.8rem;
+    text-align: center;
+  }
+}
