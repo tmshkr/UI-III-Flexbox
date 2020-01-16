@@ -2,9 +2,12 @@ article {
   margin: 1rem 0;
 }
 
-section.services {
+section {
   display: flex;
   flex-wrap: wrap;
+}
+
+section.services {
   margin: 0 -1rem;
 }
 section.services article {
@@ -27,6 +30,16 @@ section.services article button {
 
 section.facts {
   display: flex;
+}
+section.facts div {
+  flex: 1 1 300px;
+  margin: 1rem 0;
+}
+section.facts div.image-wrapper {
+  text-align: center;
+}
+section.facts div p {
+  padding-right: 1rem;
 }
 section.facts ul {
   list-style-type: disc;
