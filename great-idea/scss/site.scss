@@ -18,6 +18,16 @@ h5 {
   margin-bottom: 15px;
 }
 
+h2 {
+  font-size: 1.5rem;
+}
+
+hr {
+  clear: both;
+  margin: 1rem 0;
+  border: 1px solid #000;
+}
+
 img {
   max-width: 100%;
 }
@@ -54,6 +64,9 @@ header#top {
     font-size: 0.9em;
     color: #bebebe;
     text-decoration: none;
+  }
+  img {
+    padding-right: 1rem;
   }
 }
 
